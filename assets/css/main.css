@@ -2261,6 +2261,17 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+		.icon.custom::before{
+			display: inline-block;
+			font-size: 3rem;
+			width: 1em;
+			height: 1em;
+			cursor: default;
+			margin-left: 2em;
+			margin-right: auto;
+			line-height: 1.5em;
+			text-align: center;
+		}
 
 		.icon.major {
 			border: solid 1px;
@@ -2931,6 +2942,14 @@ input, select, textarea {
 					margin-top: 2em;
 				}
 
+	}
+	.about{
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		margin: 0 0 3em 0;
+		list-style: none;
 	}
 /* Statistics */
 
@@ -3779,6 +3798,7 @@ input, select, textarea {
 			font-size: 0.8em;
 			text-align: center;
 		}
+
 
 		@media screen and (max-width: 1280px) {
 
